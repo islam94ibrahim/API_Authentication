@@ -1,16 +1,16 @@
 ## Prerequisites to run the Solution
 
 - Please rollback any migrations from the other solutions.
----
+```
 php artisan migrate:rollback
----
+```
 - Please run the following commands in project folder(‘APIAuth’):
----
+```
 php artisan migrate
----
----
+```
+```
 php artisan db:seed
----
+```
 
 ## Solution Workflow
 
